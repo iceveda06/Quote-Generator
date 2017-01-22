@@ -12,7 +12,11 @@
    			 var quote = json.quoteText;
    			 var author = json.quoteAuthor;
    			$("#quoteText").html(quote);
-   			$("#author").html(author);
+        if (author === "") {
+          $("#author").html(" - " + "Anonymous");
+        } else
+   			$("#author").html(" - " + author);
+
+ });
+ });
  		});
-    });
-  });

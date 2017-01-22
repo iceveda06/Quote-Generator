@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" r<link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -15,33 +15,37 @@
     <div class="container">
         <!-- This is where the Quote is shown -->
         <div class="row quote">
-            <div class="col-sm-1">
+            <div class="col-md-1 col-xs-1">
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
-            <div class="col-sm-10">
-                <h2 id="quoteText">This is where the quote goes</h2>
+            <div class="col-md-10 col-xs-10">
+                <h2 id="quoteText">You must do the things you think you cannot do</h2>
             </div>
-            <div class="col-sm-1">
+            <div class="col-md-1 col-xs-1">
                 <i class="fa fa-quote-right" aria-hidden="true"></i>
             </div>
         </div>
         <!-- Share the quotes to social media -->
         <div class="row share">
-            <div class="col-sm-6">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+            <div id="tweeting" class="col-md-6 col-xs-6">
+             <!--    <button id="btnTweet" class="fa fa-twitter" aria-hidden="true"></button>
+ -->
+<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
             </div>
-         <!-- Author name -->
-        <div class = "col-sm-6 authorBox">
-                    <h4 id="author" class="text-right"></h4>
+            <!-- Author name -->
+            <div class="col-sm-6 col-xs-6 authorBox">
+                <h4 id="author" class="text-right">Eleanor Roosevelt</h4>
             </div>
         </div>
         <!-- Button to get a new quote -->
-        <!-- <div class="row"> -->
-        <div class="col-sm-12 text-center">
-            <button id="getMessage">
-                Get Quote</button>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <button id="getMessage" class="btn btn-primary">
+                    Get Quote</button>
+            </div>
         </div>
-    </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
