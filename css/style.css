@@ -1,0 +1,25 @@
+.quote {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #337ab7;
+    margin-top: 50px;
+}
+
+.authorBox {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    color: #337ab7;
+    text-align: center;
+}
+
+.share {
+    font-size: 30px;
+}
+
+.fa-twitter {
+    background-color: white;
+    color: #337ab7;
+}
+
+#tweeting {
+    padding: 10px;
+}
