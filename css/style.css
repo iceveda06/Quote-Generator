@@ -23,3 +23,22 @@
 #tweeting {
     padding: 10px;
 }
+
+/********** Super extra small devices :-) (e.g., Iphone 4/5) **********/
+@media (max-width: 365px) {
+  /* resetting tweet icon */
+#tweeting {
+    padding: 10px;
+}
+#left {
+    padding-left: 5px; 
+    padding-right: 5px; 
+}
+
+#right {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+  
+
+}
